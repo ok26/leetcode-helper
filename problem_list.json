@@ -1,0 +1,64 @@
+{
+    "active": "container-with-most-water",
+    "active_examples": [
+        [
+            "maxArea({1,8,6,2,5,4,8,3,7})",
+            "49"
+        ],
+        [
+            "maxArea({1,1})",
+            "1"
+        ]
+    ],
+    "problem_list": [
+        {
+            "name": "two-sum",
+            "code": "class Solution {\npublic:\n    vector<int> twoSum(vector<int> nums, int target) {\n        \n    }\n};",
+            "return_type": "vector<int>",
+            "examples": [
+                [
+                    "twoSum({2,7,11,15},9)",
+                    "{0,1}"
+                ],
+                [
+                    "twoSum({3,2,4},6)",
+                    "{1,2}"
+                ],
+                [
+                    "twoSum({3,3},6)",
+                    "{0,1}"
+                ]
+            ]
+        },
+        {
+            "name": "count-sub-islands",
+            "code": "class Solution {\npublic:\n    int countSubIslands(vector<vector<int>> grid1, vector<vector<int>> grid2) {\n        \n    }\n};",
+            "return_type": "int",
+            "examples": [
+                [
+                    "countSubIslands({{1,1,1,0,0},{0,1,1,1,1},{0,0,0,0,0},{1,0,0,0,0},{1,1,0,1,1}},{{1,1,1,0,0},{0,0,1,1,1},{0,1,0,0,0},{1,0,1,1,0},{0,1,0,1,0}})",
+                    "3"
+                ],
+                [
+                    "countSubIslands({{1,0,1,0,1},{1,1,1,1,1},{0,0,0,0,0},{1,1,1,1,1},{1,0,1,0,1}},{{0,0,0,0,0},{1,1,1,1,1},{0,1,0,1,0},{0,1,0,1,0},{1,0,0,0,1}})",
+                    "2"
+                ]
+            ]
+        },
+        {
+            "name": "container-with-most-water",
+            "code": "class Solution {\npublic:\n    int maxArea(vector<int> height) {\n        \n    }\n};",
+            "return_type": "int",
+            "examples": [
+                [
+                    "maxArea({1,8,6,2,5,4,8,3,7})",
+                    "49"
+                ],
+                [
+                    "maxArea({1,1})",
+                    "1"
+                ]
+            ]
+        }
+    ]
+}
