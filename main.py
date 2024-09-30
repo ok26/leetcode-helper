@@ -66,14 +66,14 @@ def test_active():
         return
 
     test_output = test_output.split("\n")
-    expected_output = []
+    examples = []
     for problem in problem_list["problem_list"]:
         if problem["name"] == problem_list["active"]:
             for example in problem["examples"]:
-                expected_output.append(example[1])
+                examples.append(example)
     
-    for i in range(len(expected_output)):
-        print(f"Test {i + 1}:\nExpected output: {expected_output[i]}\nTest output: {test_output[i]}\n")
+    for i in range(len(examples)):
+        print(f"Test {i + 1}:\nInput: {examples[i][0]}\nsExpected output: {examples[i][1]}\nTest output: {test_output[i]}\n")
     
 
 def set_problem(problem_name):
