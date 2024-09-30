@@ -73,7 +73,7 @@ def test_active():
                 examples.append(example)
     
     for i in range(len(examples)):
-        print(f"Test {i + 1}:\nInput: {examples[i][0]}\nsExpected output: {examples[i][1]}\nTest output: {test_output[i]}\n")
+        print(f"\nTest {i + 1}:\nInput: {examples[i][0]}\nExpected output: {examples[i][1]}\nTest output: {test_output[i]}")
     
 
 def set_problem(problem_name):
